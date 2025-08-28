@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Style the body */
+/* Styling the body */
 body {
   background-color: #9b6dcc;
   margin: 0;
@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 
-/*Style the piano to use flex box */ 
+/* Piano Styler */ 
 .piano {
   display: flex;
 }
@@ -38,4 +38,13 @@ width:var(--width);
   margin-left: calc(var(--width) / -2);
   margin-right: calc(var(--width) / -2);
   z-index: 2;
+}
+
+.white.active {
+  background-color: #ccc;
+}
+
+.black.active {
+  background-color: #333;
+  
 }
